@@ -1,12 +1,12 @@
 
-
-
 :root {
     --primary-color: #112041;
-    --secondary-color: #a2825b;
+    --secondary-color: #CA943C;
 
     --primary-color-light: #243f5c;
     --secondary-color-light: #d1ae86;
+
+    --white: #ffffff;
 
     /* START GUTTERS */
     --gutter-small: 0.45rem;
@@ -15,4 +15,13 @@
     --gutter-very-large: 3.6rem;
     /* END GUTTERS */
 
+    /* */
+    --top-bar-height: 85px;
+    --nav-height: 45px;
+}
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
 }

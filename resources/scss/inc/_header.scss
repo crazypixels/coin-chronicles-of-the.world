@@ -1,0 +1,47 @@
+
+header {
+    border-top: 2px solid var(--secondary-color);
+
+    position: relative;
+
+    .top-bar {
+        display: grid;
+        height: var(--top-bar-height);
+        align-items: center;
+        grid-template-columns: 300px 1fr 300px;
+
+        .logo {
+            img {
+                height:50px;
+            }
+        }
+    } 
+}
+
+nav {
+    height: var(--nav-height);
+    background-color: var(--primary-color);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+
+    .container {
+        display: flex;
+        align-items: center;
+        gap: var(--gutter);
+        height: inherit;
+        a {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            color: var(--white);
+            padding: 0px var(--gutter);
+
+            &:hover {
+                background-color: var(--secondary-color);
+            }
+        }
+    }
+    
+    
+}
